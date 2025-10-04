@@ -20,10 +20,10 @@ const Home = () => {
       <Navbar />
       <div className="">
         <div className="p-10 flex flex-col justify-center items-center">
-          <p className={`${barlowCondensed.className} whitespace-nowrap text-xl tracking-[3]`}>
+          <p className={`${barlowCondensed.className} whitespace-nowrap text-lg tracking-[3]`}>
             SO, YOU WANT TO TRAVEL TO
           </p>
-          <h2 className={`text-[100px] ${bellefair.className}`}>SPACE</h2>
+          <h2 className={`text-[95px] ${bellefair.className}`}>SPACE</h2>
           <p className={`${barlow.className} text-[#D0D6F9] text-md text-center`}>
             Let’s face it; if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.

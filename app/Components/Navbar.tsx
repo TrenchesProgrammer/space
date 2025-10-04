@@ -14,14 +14,14 @@ const Navbar = () => {
       className={`${barlowCondensed.className} flex justify-between w-full tracking-[4] whitespace-nowrap  text-md p-6 md:p-0 md:pl-6 lg:pt-6 items-center   `}
     >
       <div className="flex items-center">
-        <Image src="/logo.svg" height={48} width={48} alt="logo" className="md:h-10 md:w-10" />
+        <Image src="/logo.svg" height={36} width={36} alt="logo" className="md:h-10 md:w-10" />
       </div>
 
       <div >
         <Image
           src="./icon-hamburger.svg"
-          height={36}
-          width={36}
+          height={24}
+          width={24}
           alt="menu"
           className="md:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
