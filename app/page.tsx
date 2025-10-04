@@ -16,7 +16,7 @@ const bellefair = Bellefair({
 });
 const Home = () => {
   return (
-    <main className=" bg-home-mobile md:bg-home-tablet flex flex-col lg:bg-home-desktop bg-cover h-[100dvh] w-[100dvw] ">
+    <main className=" bg-home-mobile md:bg-home-tablet flex flex-col lg:bg-home-desktop bg-cover overflow-hidden bg-black  h-[100dvh] w-[100dvw] ">
       <Navbar />
       <div className="p-7 lg:p-30 flex flex-1 flex-col lg:flex-row  items-center lg:items-end justify-between ">
         <div className="flex flex-col justify-center lg:w-[50%] items-center lg:items-start">
