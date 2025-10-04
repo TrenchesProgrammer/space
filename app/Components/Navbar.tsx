@@ -6,57 +6,58 @@ import { Barlow_Condensed } from "next/font/google";
 const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
   weight: "400",
-  display: "swap",
 });
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav
-      className={`${barlowCondensed.className} absolute top-0 flex justify-between w-full  pl-6 pt-6 sm:pl-12 sm:pt-12`}
+      className={`${barlowCondensed.className} flex justify-between w-full tracking-[4] whitespace-nowrap  text-md p-6 md:p-0 md:pl-6 lg:pt-6 items-center   `}
     >
       <div className="flex items-center">
-        <Image src="/logo.svg" height={36} width={36} alt="logo" />
+        <Image src="/logo.svg" height={48} width={48} alt="logo" className="md:h-10 md:w-10" />
       </div>
 
-      <div className="mr-6 sm:mr-12">
+      <div >
         <Image
           src="./icon-hamburger.svg"
-          height={24}
-          width={24}
+          height={36}
+          width={36}
           alt="menu"
           className="md:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
         {isMenuOpen && (
-          <div className="absolute top-0 right-0 h-[100vh] w-50 bg-white/5 backdrop-blur-2xl shadow-lg p-6 ">
+          <div className=" h-[100vh] w-65 absolute bottom-0 right-0  bg-white/5 backdrop-blur-2xl shadow-lg p-6 ">
             <div className="flex justify-end mb-20">
- <Image
-              src="./icon-close.svg"
-              height={22}
-              width={22}
-              alt="close menu"
-              className=""
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            />
+              <Image
+                src="./icon-close.svg"
+                height={28}
+                width={28}
+                alt="close menu"
+                className=""
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              />
             </div>
-           
-            <p className="mb-5">
-              <span className="font-bold">01</span> Home
+            <div className="flex flex-col gap-12 ">
+            <p>
+              <span className="font-bold">00</span> HOME
             </p>
-            <p className="mb-5">
-              <span className="font-bold">02</span> Destination
+            <p>
+              <span className="font-bold">01</span> DESTINATION
             </p>
-            <p className="mb-5">
-              <span className="font-bold">03</span> Crew
+            <p>
+              <span className="font-bold">02</span> CREW
             </p>
-            <p className="mb-5">
-              <span className="font-bold">04</span> Technology
+            <p>
+              <span className="font-bold">03</span> TECHNOLOGY
             </p>
+            </div>
+
           </div>
         )}
       </div>
-      <div className="hidden justify-between md:flex gap-6 p-8 pl-25 bg-white/5 relative  backdrop-blur-2xl  shadow-lg items-center text-xl h-20">
-        <div className="border-t lg:block hidden  -left-[360px] absolute border-gray-500 w-96 " />
+      <div className="hidden justify-between md:flex gap-6 p-8 pl-25 bg-white/5 relative h-[75px] w-[650px] backdrop-blur-2xl shadow-lg items-center  ">
+        <div className="border-t xl:block hidden  -left-[500px] absolute border-gray-500 w-135 " />
         <p>
           <span className="font-bold">01</span> Home
         </p>

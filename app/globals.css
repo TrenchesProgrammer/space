@@ -2,7 +2,20 @@
 
 
 
-
+@theme{
+  --background-image-home-desktop: url('/background-home-desktop.jpg');
+  --background-image-home-tablet: url('/background-home-tablet.jpg');
+  --background-image-home-mobile: url('/background-home-mobile.jpg');
+  --background-image-destination-desktop: url('/background-destination-desktop.jpg');
+  --background-image-destination-tablet: url('/background-destination-tablet.jpg');
+  --background-image-destination-mobile: url('/background-destination-mobile.jpg');
+  --background-image-crew-desktop: url('/background-crew-desktop.jpg');
+  --background-image-crew-tablet: url('/background-crew-tablet.jpg');
+  --background-image-crew-mobile: url('/background-crew-mobile.jpg');
+  --background-image-technology-desktop: url('/background-technology-desktop.jpg');
+  --background-image-technology-tablet: url('/background-technology-tablet.jpg');
+  --background-image-technology-mobile: url('/background-technology-mobile.jpg');
+}
 
 
 body {

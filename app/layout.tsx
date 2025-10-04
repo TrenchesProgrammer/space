@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Bellefair} from "next/font/google";
 import "./globals.css";
-import Navbar from "./Components/Navbar";
 const bellefair = Bellefair({
   subsets: ["latin"],
   weight: "400",
-  display: "swap",
+  display: "auto",
 });
 
 export const metadata: Metadata = {
@@ -23,7 +22,6 @@ export default function RootLayout({
       <body
         className={`${bellefair.className} text-white antialiased`}
       >
-        <Navbar/>
         {children}
       </body>
     </html>
