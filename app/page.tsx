@@ -18,8 +18,8 @@ const Home = () => {
   return (
     <div className=" bg-home-mobile md:bg-home-tablet flex flex-col lg:bg-home-desktop bg-cover h-[100vh] w-[100vw] ">
       <Navbar />
-      <div className="">
-        <div className="p-10 flex flex-col justify-center items-center">
+      <div className="p-7">
+        <div className="flex flex-col justify-center items-center">
           <p className={`${barlowCondensed.className} whitespace-nowrap text-md tracking-[3]`}>
             SO, YOU WANT TO TRAVEL TO
           </p>
