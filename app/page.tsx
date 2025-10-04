@@ -23,8 +23,8 @@ const Home = () => {
           <p className={`${barlowCondensed.className} whitespace-nowrap text-xl tracking-[3]`}>
             SO, YOU WANT TO TRAVEL TO
           </p>
-          <h2 className={`text-[110px] ${bellefair.className}`}>SPACE</h2>
-          <p className={`${barlow.className} text-[#D0D6F9] text-lg text-center`}>
+          <h2 className={`text-[100px] ${bellefair.className}`}>SPACE</h2>
+          <p className={`${barlow.className} text-[#D0D6F9] text-md text-center`}>
             Let’s face it; if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
             Well sit back, and relax because we’ll give you a truly out of this
