@@ -19,7 +19,7 @@ const Home = () => {
     <div className=" bg-home-mobile md:bg-home-tablet flex flex-col lg:bg-home-desktop bg-cover h-[100vh] w-[100vw] ">
       <Navbar />
       <div className="p-7 lg:p-30 flex flex-1 flex-col lg:flex-row  items-center lg:items-end justify-between ">
-        <div className="flex flex-col justify-center w-[50%] items-center lg:items-start">
+        <div className="flex flex-col justify-center lg:w-[50%] items-center lg:items-start">
           <p
             className={`${barlowCondensed.className} whitespace-nowrap text-[16px] md:text-[28px] tracking-[3]`}
           >
@@ -35,7 +35,7 @@ const Home = () => {
             world experience!
           </p>
         </div>
-        <div className="bg-white text-black rounded-full h-45 md:h-[272px] md:w-[272px] w-45 flex justify-center items-center hover:scale-110 ease-in duration-300 cursor-pointer">
+        <div className="bg-white text-black rounded-full h-45 md:h-[272px] md:w-[272px] w-45 flex justify-center items-center hover:scale-110  cursor-pointer">
           <p className={`${bellefair.className} text-2xl tracking-[2px]`}>
             EXPLORE
           </p>
