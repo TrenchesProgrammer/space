@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className=" bg-home-mobile md:bg-home-tablet flex flex-col lg:bg-home-desktop bg-cover h-[100vh] w-[100vw] ">
       <Navbar />
-      <div className="p-7 flex flex-1 flex-col items-center gap-80">
+      <div className="p-7 flex flex-1 flex-col items-center justify-between">
         <div className="flex flex-col justify-center items-center">
           <p
             className={`${barlowCondensed.className} whitespace-nowrap text-md tracking-[3]`}
