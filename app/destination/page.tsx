@@ -1,18 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "../Components/Navbar";
-import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
+import { Barlow_Condensed } from "next/font/google";
 import Image from "next/image";
 import DestinationTab from "../Components/DestinationTab";
 const barlowCondensed = Barlow_Condensed({
-  subsets: ["latin"],
-  weight: "400",
-});
-const barlow = Barlow({
-  subsets: ["latin"],
-  weight: "400",
-});
-const bellefair = Bellefair({
   subsets: ["latin"],
   weight: "400",
 });

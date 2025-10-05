@@ -1,5 +1,4 @@
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
-import Image from "next/image";
 import React from "react";
 import Navbar from "./Components/Navbar";
 const barlowCondensed = Barlow_Condensed({
