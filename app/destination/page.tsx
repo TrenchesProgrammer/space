@@ -17,9 +17,9 @@ const bellefair = Bellefair({
 });
 const page = () => {
   return (
-    <div className="bg-destination-mobile md:bg-destination-tablet lg:bg-destination-desktop bg-cover h-[100dvh] w-[100dvw]">
+    <div className="bg-destination-mobile flex flex-col  md:bg-destination-tablet lg:bg-destination-desktop bg-cover h-[100dvh] w-[100dvw]">
       <Navbar />
-      <div className="flex flex-col mt-6 gap-5 md:px-30">
+      <div className="flex flex-col mt-6 gap-5 flex-1 md:px-30">
         <div
           className={`${barlowCondensed.className} flex justify-center md:justify-start tracking-[3]`}
         >
@@ -27,7 +27,7 @@ const page = () => {
             <span className="opacity-25 m-5">01</span> PICK YOUR DESTINATION
           </p>
         </div>
-        <div className="flex flex-col px-7 gap-8 items-center">
+        <div className="flex flex-col flex-1 px-7 justify-around h-full items-center">
           <Image
             alt="moon"
             src="/image-moon.webp"
