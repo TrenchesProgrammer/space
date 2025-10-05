@@ -27,15 +27,15 @@ const page = () => {
             <span className="opacity-25 m-5">01</span> PICK YOUR DESTINATION
           </p>
         </div>
-        <div className="flex flex-col flex-1 px-7 justify-around h-full items-center">
+        <div className="flex flex-col flex-1 px-7 justify-around lg:flex-row h-full items-center">
           <Image
             alt="moon"
             src="/image-moon.webp"
             height={150}
             width={150}
-            className="md:w-[300px] md:h-[300px] lg:w-[480px] lg:h-[480px] "
+            className="md:w-[300px] md:h-[300px] lg:w-[390px] lg:h-[390px] "
           />
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col lg:w-[40%] items-center lg:items-start">
             <div
               className={`${barlowCondensed.className} text-[#D0D6F9] tracking-[3] flex flex-row text-[14px] gap-7`}
             >

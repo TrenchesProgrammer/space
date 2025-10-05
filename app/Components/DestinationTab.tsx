@@ -14,14 +14,14 @@ const bellefair = Bellefair({
 });
 const DestinationTab = () => {
   return (
-    <div className="flex flex-col gap-4 items-center ">
+    <div className="flex flex-col gap-2 lg:gap-8 items-center lg:items-start ">
       <h2
-        className={`text-[56px] md:text-[80px] ${bellefair.className} text-white`}
+        className={`text-[56px] max-h-[95px] md:text-[80px] ${bellefair.className} text-white`}
       >
         MOON
       </h2>
       <p
-        className={`${barlow.className} text-[#D0D6F9] text-center text-[15px] md:text-[16px] lg:w-[50%]`}
+        className={`${barlow.className} text-[#D0D6F9] text-center lg:text-left text-[15px] md:text-[16px] `}
       >
         See our planet as you’ve never seen it before. A perfect relaxing trip
         away to help regain perspective and come back refreshed. While you’re
@@ -38,7 +38,7 @@ const DestinationTab = () => {
           </p>
           <p className={`${bellefair.className} text-[28px]`}>384,400 KM</p>
         </div>
-        <div>
+        <div className="text-left">
             <p className={`${barlowCondensed.className} tracking-[3] text-[14px] text-[#D0D6F9]`}>
                 EST. TRAVEL TIME
             </p>
