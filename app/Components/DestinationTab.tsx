@@ -28,7 +28,7 @@ const DestinationTab = () => {
         there, take in some history by visiting the Luna 2 and Apollo 11 landing
         sites.
       </p>
-      <div className="border-white w-full border-t " />
+      <div className="border-white/25 w-full border-t " />
       <div className="flex flex-col md:flex-row text-center gap-3 md:gap-20">
         <div>
           <p
