@@ -8,7 +8,7 @@ const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
   weight: "400",
 });
-const page = () => {
+const Destination = () => {
   const [destinationTab, setDestinationTab] = useState("moon");
   return (
     <div className="bg-destination-mobile flex flex-col  md:bg-destination-tablet lg:bg-destination-desktop bg-cover h-[100dvh] w-[100dvw]">
@@ -128,4 +128,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Destination;
