@@ -14,7 +14,7 @@ const bellefair = Bellefair({
 });
 const DestinationTab = () => {
   return (
-    <div className="flex flex-col gap-7 items-center ">
+    <div className="flex flex-col gap-4 items-center ">
       <h2
         className={`text-[56px] md:text-[80px] ${bellefair.className} text-white`}
       >
