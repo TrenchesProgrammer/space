@@ -89,9 +89,9 @@ const Crew = () => {
               ></div>
             </div>
           </div>
-          <div className="relative  overflow-hidden w-[230px] h-[270px] mx-auto mt-6 
+          <div className="relative  overflow-hidden w-[230px] h-[300px] mx-auto mt-6 
                 md:w-[300px] md:h-[400px] 
-                lg:w-[450px] lg:h-[550px]">
+                lg:w-[375px] lg:h-[430px]">
           <Image
             alt="crew mate"
             src={`/image-${crewTab}.webp`}

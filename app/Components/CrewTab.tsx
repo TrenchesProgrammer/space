@@ -23,7 +23,7 @@ const CrewTab = ({ name, about, position }: CrewTabProps) => {
       <div className="flex flex-col gap-0  items-center lg:items-start">
         <p className={`${bellefair.className} text-white/50`}>{position}</p>
         <h2
-          className={`text-[36px]  md:text-[60px] ${bellefair.className} text-white`}
+          className={`text-[36px] whitespace-nowrap  md:text-[60px] ${bellefair.className} text-white`}
         >
           {name}
         </h2>
