@@ -22,7 +22,7 @@ const Crew = () => {
           </p>
         </div>
         <div className="flex flex-col flex-1 px-7 justify-around lg:flex-row h-full items-center">
-          <div className="flex flex-col lg:w-[40%] h-[35%] justify-between items-center lg:items-start">
+          <div className="flex flex-col lg:w-[40%] h-[35%] lg:h-[50%] justify-between items-center lg:items-start">
             {crewTab == "douglas" && (
               <CrewTab
                 name="DOUGLAS HURLEY"
@@ -55,38 +55,15 @@ const Crew = () => {
             <div
               className={`${barlowCondensed.className} text-[#D0D6F9] tracking-[3] flex flex-row text-[14px] gap-7`}
             >
-              <div
-                onClick={() => {
-                  setCrewTab("douglas");
-                }}
-                className={` w-[10px] h-[10px] rounded-full ${
-                  crewTab == "douglas" ? "bg-white" : "bg-white/17"
-                }  cursor-pointer`}
-              ></div>
-              <div
-                onClick={() => {
-                  setCrewTab("mark");
-                }}
-                className={` w-[10px] h-[10px] rounded-full ${
-                  crewTab == "mark" ? "bg-white" : "bg-white/17"
-                }  cursor-pointer`}
-              ></div>
-              <div
-                onClick={() => {
-                  setCrewTab("victor");
-                }}
-                className={` w-[10px] h-[10px] rounded-full ${
-                  crewTab == "victor" ? "bg-white" : "bg-white/17"
-                }  cursor-pointer`}
-              ></div>
-              <div
-                onClick={() => {
-                  setCrewTab("anousheh");
-                }}
-                className={` w-[10px] h-[10px] rounded-full ${
-                  crewTab == "anousheh" ? "bg-white" : "bg-white/17"
-                }  cursor-pointer`}
-              ></div>
+              {['douglas', 'mark', 'victor', 'anousheh'].map((crew) => (
+  <div
+    key={crew}
+    onClick={() => setCrewTab(crew)}
+    className={`w-[10px] h-[10px] rounded-full ${
+      crewTab === crew ? "bg-white" : "bg-white/17"
+    } cursor-pointer`}
+  />
+))}
             </div>
           </div>
           <div className="relative  overflow-hidden w-[230px] h-[300px] mx-auto mt-6 
@@ -96,8 +73,8 @@ const Crew = () => {
             alt="crew mate"
             src={`/image-${crewTab}.webp`}
             fill
-            className=" [mask-image:linear-gradient(to_bottom,black_80%,transparent_100%)] "
-          />   
+            className=" [mask-image:linear-gradient(to_bottom,black_80%,transparent_100%)]"
+          />
           </div>
         </div>
       </div>
