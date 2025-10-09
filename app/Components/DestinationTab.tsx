@@ -21,18 +21,21 @@ interface destinationTabProps{
 const DestinationTab = ({name, text, distance, destinationTime}:destinationTabProps) => {
   return (
     <div className="flex flex-col gap-2 lg:gap-8 items-center lg:items-start ">
-      <h2
-        className={`text-[56px] max-h-[95px] md:text-[80px] ${bellefair.className} text-white`}
-      >
-        {name}
-      </h2>
-      <p
-        className={`${barlow.className} text-[#D0D6F9] text-center lg:text-left text-[15px] md:text-[16px] `}
-      >
-        {text}
-      </p>
+      <div className="text-center">
+        <h2
+          className={`text-[56px] max-h-[95px] md:text-[80px] ${bellefair.className} text-white`}
+        >
+          {name}
+        </h2>
+        <p
+          className={`${barlow.className} text-[#D0D6F9] text-center lg:text-left text-[15px] md:text-[16px] `}
+        >
+          {text}
+        </p>       
+      </div>
+
       <div className="border-white/25 w-full border-t " />
-      <div className="flex flex-col md:flex-row text-center gap-3 md:gap-20">
+      <div className="flex flex-col md:flex-row text-center gap-2 md:gap-20">
         <div className="text-center whitespace-nowrap lg:text-left">
           <p
             className={`${barlowCondensed.className} tracking-[3] text-[14px] text-[#D0D6F9]`}

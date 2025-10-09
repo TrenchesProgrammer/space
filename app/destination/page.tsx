@@ -13,7 +13,7 @@ const Destination = () => {
   return (
     <div className="bg-destination-mobile flex flex-col  md:bg-destination-tablet lg:bg-destination-desktop bg-cover h-[100dvh] w-[100dvw]">
       <Navbar />
-      <div className="flex flex-col mt-6 gap-5 flex-1 md:px-30">
+      <div className="flex flex-col gap-5 flex-1 md:px-30">
         <div
           className={`${barlowCondensed.className} flex justify-center md:justify-start tracking-[3]`}
         >
@@ -34,9 +34,9 @@ const Destination = () => {
               className={`${barlowCondensed.className} text-[#D0D6F9] tracking-[3] flex flex-row text-[14px] gap-7`}
             >
               <div
-                className={`py-5 ${
-                  destinationTab == "moon" ? "border-b-4 border-white" : ""
-                }  cursor-pointer`}
+                className={` py-2 
+                  ${destinationTab == "moon" ? "border-b-4 border-white" : ""}
+                    cursor-pointer`}
               >
                 <p
                   onClick={() => {
@@ -47,7 +47,7 @@ const Destination = () => {
                 </p>
               </div>
               <div
-                className={`py-5 ${
+                className={` py-2 ${ 
                   destinationTab == "mars" ? "border-b-4 border-white" : ""
                 } cursor-pointer`}
               >
@@ -60,7 +60,7 @@ const Destination = () => {
                 </p>
               </div>
               <div
-                className={`py-5 ${
+                className={` py-2  ${
                   destinationTab == "europa" ? "border-b-4 border-white" : ""
                 }  cursor-pointer`}
               >
@@ -73,7 +73,7 @@ const Destination = () => {
                 </p>
               </div>
               <div
-                className={`py-5 ${
+                className={`py-2 ${
                   destinationTab == "titan" ? "border-b-4 border-white" : ""
                 } cursor-pointer`}
               >
