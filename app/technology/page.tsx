@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Navbar from "../Components/Navbar";
-import Image from "next/image";
+// import Image from "next/image";
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
 const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
