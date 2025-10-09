@@ -1,4 +1,4 @@
-import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
+import { Barlow, Bellefair } from "next/font/google";
 import React from "react";
 
 const barlow = Barlow({
