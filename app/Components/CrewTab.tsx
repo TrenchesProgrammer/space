@@ -1,9 +1,6 @@
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
 import React from "react";
-const barlowCondensed = Barlow_Condensed({
-  subsets: ["latin"],
-  weight: "400",
-});
+
 const barlow = Barlow({
   subsets: ["latin"],
   weight: "400",
