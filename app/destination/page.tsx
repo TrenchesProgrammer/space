@@ -13,7 +13,7 @@ const Destination = () => {
   return (
     <div className="bg-destination-mobile flex flex-col  md:bg-destination-tablet lg:bg-destination-desktop bg-cover h-[100dvh] w-[100dvw]">
       <Navbar />
-      <div className="flex flex-col gap-5 flex-1 md:px-30">
+      <div className="flex flex-col gap-5 flex-1 md:px-10">
         <div
           className={`${barlowCondensed.className} flex justify-center md:justify-start tracking-[3]`}
         >

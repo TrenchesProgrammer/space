@@ -21,7 +21,7 @@ interface destinationTabProps{
 const DestinationTab = ({name, text, distance, destinationTime}:destinationTabProps) => {
   return (
     <div className="flex flex-col gap-2 lg:gap-8 items-center lg:items-start ">
-      <div className="text-center">
+      <div className="text-center lg:text-left">
         <h2
           className={`text-[56px] max-h-[95px] md:text-[80px] ${bellefair.className} text-white`}
         >
