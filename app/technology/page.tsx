@@ -20,7 +20,7 @@ const Technology = () => {
   return (
     <div className="bg-technology-mobile flex flex-col  md:bg-technology-tablet lg:bg-technology-desktop bg-cover h-[100dvh] w-[100dvw]">
       <Navbar />
-      <div className="w-full p-5">
+      <div className="w-full p-2">
         <p className={`${barlowCondensed.className} text-[16px] md:text-[20px] tracking-widest`}><span className="text-bold text-white/25">03</span> SPACE LAUNCH 101</p>
       </div>
       <div className="flex flex-1 flex-col lg:flex-row-reverse gap-3 lg:pt-10 lg:pl-10 pb-10">
