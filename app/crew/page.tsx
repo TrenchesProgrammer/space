@@ -13,7 +13,7 @@ const Crew = () => {
   return (
     <div className="bg-crew-mobile flex flex-col  md:bg-crew-tablet lg:bg-crew-desktop bg-cover h-[100dvh] w-[100dvw]">
       <Navbar />
-      <div className="flex flex-col gap-5 flex-1 md:px-10">
+      <div className="flex flex-col gap-5 flex-1 md:px-15">
         <div
           className={`${barlowCondensed.className} flex justify-center md:justify-start tracking-[3]`}
         >
@@ -21,7 +21,7 @@ const Crew = () => {
             <span className="opacity-25 m-5">02</span> MEET YOUR CREW
           </p>
         </div>
-        <div className="flex flex-col flex-1 px-7 justify-around lg:flex-row h-full items-center">
+        <div className="flex flex-col flex-1 justify-around lg:flex-row h-full items-center">
           <div className="flex flex-col lg:w-[40%] h-[35%] lg:h-[50%] justify-between items-center lg:items-start">
             {crewTab == "douglas" && (
               <CrewTab

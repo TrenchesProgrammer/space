@@ -17,7 +17,10 @@
   --background-image-technology-mobile: url('/background-technology-mobile.jpg');
   --background-image-launch-vehicle-landscape: url('/image-launch-vehicle-landscape.png');
   --background-image-launch-vehicle-portrait: url('/image-launch-vehicle-portrait.jpg');
-  --background-image-launch-vehicle-tablet: url('/image-launch-vehicle-tablet.svg');
+  --background-image-spaceport-landscape: url('/image-spaceport-landscape.jpg');
+  --background-image-spaceport-portrait: url('/image-spaceport-portrait.jpg');
+  --background-image-space-capsule-landscape: url('/image-space-capsule-landscape.jpg');
+  --background-image-space-capsule-portrait: url('/image-space-capsule-portrait.jpg');
 }
 
 
